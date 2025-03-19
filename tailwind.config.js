@@ -1,17 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        'brand': {
-          green: '#16a34a',
-          blue: '#2563eb',
+        orange: {
+          500: '#FF8300',
+          600: '#E67600'
         }
-      },
-      container: {
-        center: true,
-        padding: '1rem',
       }
     },
   },
